@@ -1,0 +1,96 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .box {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border-radius: 4px;
+  }
+  
+  .left h4 {
+    color: rgb(0, 0, 1);
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+  
+  .uploadlabel-heading {
+    padding: 0%;
+    text-align: start;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 13px;
+  }
+  
+  .uploadlabel {
+    width: 260px;
+    height: 127px;
+    border-radius: 6px;
+    background-color: rgb(207, 232, 241);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed rgb(50, 149, 235);
+  }
+  
+  .uploadlabel span {
+    color: #18a7ff;
+  }
+  
+  .uploadlabel a {
+    color: #18a7ff;
+    font-size: small;
+  }
+  
+  .uploadlabel p {
+    color: #a29daa;
+    font-size: small;
+  }
+  
+  .uploaded {
+    margin: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #18a7ff;
+  }
+  
+  .left h3 {
+    color: rgb(73, 136, 209);
+    font-size: 12px;
+    text-decoration: underline;
+    word-wrap: break-word;
+  }
+  
+  .fa-check-circle {
+    font-size: 16px;
+    color: rgb(120, 236, 97);
+  }
+  
+  .delete {
+    font-size: 20px !important;
+    cursor: pointer;
+  }
+  
+  .showfilebox {
+    display: flex;
+    align-items: center;
+    width: 260px;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border: 1px dashed rgb(173, 169, 169);
+    border-radius: 3px;
+  }
+  
+  .showfilebox .left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
